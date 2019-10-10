@@ -1,0 +1,28 @@
+# Example Project
+
+[![CircleCI](https://circleci.com/gh/pennlabs/example-project.svg?style=shield)](https://circleci.com/gh/pennlabs/example-project)
+[![Coverage Status](https://coveralls.io/repos/github/pennlabs/example-project/badge.svg?branch=master)](https://coveralls.io/github/pennlabs/example-project?branch=master)
+[![PyPi Package](https://img.shields.io/pypi/v/example-project.svg)](https://pypi.org/project/example-project/)
+
+## Requirements
+
+* Python 3.5+
+* Django 2.0+
+
+## Installation
+
+Install with pip `pip install example_project`
+
+...
+
+## Documentation
+
+...
+
+## Changelog
+
+See [CHANGELOG.md](https://github.com/pennlabs/example-project/blob/master/CHANGELOG.md)
+
+## License
+
+See [LICENSE.md](https://github.com/pennlabs/example-project/blob/master/LICENSE.md)
