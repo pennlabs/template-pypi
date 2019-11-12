@@ -47,7 +47,6 @@ CircleCI will then build and publish the new version to PyPI
 | README.md.template | 24   | Replace example-project with the name of the project on Github                      |
 | README.md.template | 28   | Replace example-project with the name of the project on Github                      |
 | setup.py           | 27   | Replace example-project with the desired name of the project on PyPI                |
-| setup.py           | 29   | Replace project_name with the name of your project                                  |
 | setup.py           | 30   | Replace example-project with the name of the project on Github                      |
 | setup.py           | 32   | Replace example-project with the name of the project on Github                      |
 | setup.py           | 37   | Add a short description of your project here                                        |

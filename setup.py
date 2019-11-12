@@ -1,7 +1,7 @@
 import os
 import sys
 
-from setuptools import setup
+from setuptools import find_packages, setup
 from setuptools.command.install import install
 
 
@@ -26,7 +26,7 @@ class VerifyVersionCommand(install):
 setup(
     name='example-project',
     version=VERSION,
-    packages=['project_name'],
+    packages=find_packages(exclude=["tests"]),
     url='https://github.com/pennlabs/example-project',
     project_urls={
         'Changelog': ('https://github.com/pennlabs/example-project/blob/master/CHANGELOG.md')
