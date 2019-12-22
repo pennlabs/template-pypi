@@ -25,13 +25,13 @@ class VerifyVersionCommand(install):
 
 
 setup(
-    name="example-project",
+    name="pypi-project",
     version=VERSION,
     packages=find_packages(exclude=["tests"]),
-    url="https://github.com/pennlabs/example-project",
+    url="https://github.com/pennlabs/github-project",
     project_urls={
         "Changelog": (
-            "https://github.com/pennlabs/example-project/blob/master/CHANGELOG.md"
+            "https://github.com/pennlabs/github-project/blob/master/CHANGELOG.md"
         )
     },
     license="MIT",

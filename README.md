@@ -38,20 +38,8 @@ CircleCI will then build and publish the new version to PyPI
 
 ## Configuration
 
-| File               | Line | Description                                                                         |
+| File               | Line | Description                                                        |
 |--------------------|------|-------------------------------------------------------------------------------------|
-| README.md.template | 3    | Replace example-project with the name of the project on Github (Twice on this line) |
-| README.md.template | 4    | Replace example-project with the name of the project on Github (Twice on this line) |
-| README.md.template | 5    | Replace example-project with the name of the project on PyPI (Twice on this line)   |
-| README.md.template | 14   | Replace project_name with the name of your project                                  |
-| README.md.template | 24   | Replace example-project with the name of the project on Github                      |
-| README.md.template | 28   | Replace example-project with the name of the project on Github                      |
-| setup.py           | 27   | Replace example-project with the desired name of the project on PyPI                |
-| setup.py           | 30   | Replace example-project with the name of the project on Github                      |
-| setup.py           | 32   | Replace example-project with the name of the project on Github                      |
-| setup.py           | 37   | Add a short description of your project here                                        |
-| tox.ini            | 29   | Replace project_name with the name of your project                                  |
-| tox.ini            | 35   | Replace project_name with the name of your project                                  |
-| tox.ini            | 41   | Replace project_name with the name of your project                                  |
-| tests/settings.py  | 12   | Replace this line with the dotted path to your package's AppConfig                  |
-| tests/urls.py      | 5    | Replace project_name with the name of your project (Twice on this line)             |
+| setup.py           | 37   | Add a short description of your project here                       |
+| tests/settings.py  | 12   | Replace this line with the dotted path to your package's AppConfig |
+| tests/urls.py      | 5    | Replace the namespace with the namespace of your project           |
