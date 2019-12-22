@@ -9,4 +9,6 @@ find . -type f -exec sed -i "s/project-name/$1/g" {} \;
 find . -type f -exec sed -i "s/github-project/$2/g" {} \;
 find . -type f -exec sed -i "s/pypi-project/$3/g" {} \;
 
+mv README.md.template README.md
+
 rm init.sh
