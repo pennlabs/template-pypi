@@ -4,7 +4,7 @@ This template repo contains all the sample configuration needed to create a PyPI
 
 ## Installation
 
-Click the green "Use this template" button and make a new repo with your desired name. Create a new folder to hold your reusable package. You should write tests in the `tests` directory. Follow the Usage instructions when developing and releasing new versions. You can also rename `README.md.template` to `README.md` (replacing this file) to get a basic Readme.
+Click the green "Use this template" button and make a new repo with your desired name. Create a new folder to hold your reusable package. You should write tests in the `tests` directory. Run the provided init script `./init.sh <name of project> <name of github repo> <name of pypi package>` to configure most of the project. See the configuration section for final changes that need to be made. Follow the Usage instructions when developing and releasing new versions. You can also rename `README.md.template` to `README.md` (replacing this file) to get a basic Readme.
 
 ## Features
 
