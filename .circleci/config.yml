@@ -13,11 +13,11 @@ jobs:
       - run:
           name: Upload code coverage
           command: |
-            coveralls
+            codecov
       - store_test_results:
           path: test-results
       - store_artifacts:
-          path: test_results
+          path: test-results
           destination: trl
   publish:
     working_directory: ~/pennlabs
